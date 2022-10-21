@@ -1,0 +1,18 @@
+h1
+{
+    text-align: center;
+}
+
+span
+{
+    display: inline-block;
+    margin-left: 4px;
+    border: 1px solid gray;
+    
+}
+
+img
+{
+    width: 200px;
+    height: 200px;
+}

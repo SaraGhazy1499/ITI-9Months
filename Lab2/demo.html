@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            margin-top: 10px;
+           }
+
+           table,th,td{
+            border: 1px solid;
+            border-collapse: collapse;
+           }
+
+           td,th
+           {
+            text-align: center;
+            padding:20px;
+           }
+
+           button
+           {
+            padding:5px;
+            color:white;
+           }
+
+           .details
+           {
+            background-color: blue;
+           }
+           .edit
+           {
+            background-color: green;
+           }
+
+           .delete
+           {
+            background-color: red;
+           }
+    </style>
+</head>
+<body>
+
+    <h2>Form</h2>
+    <form method="post" action="welcome.html">
+
+        <fieldset>
+            <legend>Register:</legend>
+
+            <div>
+            <label for="fname">First Name : </label>
+             <input type="text" name="fname" id="fname"/>
+            </div>
+        
+
+            <div>
+            <label for="lname">Last Name :</label>
+            <input type="text" name="lname" id="lname"/>
+            </div>
+        
+
+            <div>
+             <label for="password">Password :</label>
+            <input type="password"  name="password" id="password" />
+            </div>
+        
+
+            <div>
+                <label for="age">Age :</label>
+                <input type="number" name="age" id="age"/>
+            </div>
+        
+
+            <div>
+             <label for="hobby">Hobbies :</label>
+            <input type="checkbox" name="hobby" id="reading" value="Reading"/>
+            <label for="reading">Reading</label>
+             <input type="checkbox" name="hobby" id="swimming" value="Swimming"/>
+             <label for="swimming">Swimming</label>
+              <input type="checkbox" name="hobby" id="running" value="Running"/>
+              <label for="running">Running</label>
+            </div>
+        
+
+            <div>
+                <label for="gender">Gender</label>
+                <input type="radio" name="gender" value="m"><label>Male</label>
+                <input type="radio" name="gender" value="f"><label>Female</label>
+            </div>
+   
+
+            <div>
+                <label for="notes">Notes</label>
+                <textarea name="notes"></textarea>
+            </div>
+     
+
+           <input type="submit" value="send"/>
+
+        </fieldset>
+
+       </form>
+
+        <hr>
+
+        <!------------------Iframe---------------------------->
+
+       <h2>Iframe</h2>
+        <div>
+        <iframe src="https://iti.gov.eg">
+
+        </iframe>
+       </div>
+
+       <hr>
+
+
+       <!---------------------table------------------------>
+
+       <h2>Table</h2>
+
+       <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Salary</th>
+                <th>Position</th>
+                <th>Age</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>NA</td>
+                <td><input type="text"/></td>
+                <td><input type="text"/></td>
+                <td><input type="text"/></td>
+                <td><input type="text"/></td>
+                <td><input type="text"/></td>
+                <td>
+                    NA
+                </td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>sara</td>
+                <td>AbdElaziz</td>
+                <td>4000</td>
+                <td>Developer</td>
+                <td>23</td>
+                <td>
+                    <button class="details">Details</button>
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>2</td>
+                <td>sara</td>
+                <td>AbdElaziz</td>
+                <td>4000</td>
+                <td>Developer</td>
+                <td>23</td>
+                <td>
+                    <button class="details">Details</button>
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>3</td>
+                <td>sara</td>
+                <td>AbdElaziz</td>
+                <td>4000</td>
+                <td>Developer</td>
+                <td>23</td>
+                <td>
+                    <button class="details">Details</button>
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>4</td>
+                <td>sara</td>
+                <td>AbdElaziz</td>
+                <td>4000</td>
+                <td>Developer</td>
+                <td>23</td>
+                <td>
+                    <button class="details">Details</button>
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                </td>
+            </tr>
+
+        </tbody>
+       </table>
+
+       <hr>
+
+
+       <!--------------------Design form--------------------------------->
+
+       <h2>Design Form</h2>
+       <form action="">
+        <fieldset>
+            <legend>Customer Info</legend>
+            <div>
+            <label for="name">Name:</label>
+            <input type="text"id="name" name="name"  placeholder="Enter Your Name"/>
+            </div>
+            
+            <div>
+                <label for="phone">Telephone:</label>
+                <input type="text" id="phone" placeholder="Pattern 10-234-345">
+            </div>
+          
+
+            <div>
+             <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email"/>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Books</legend>
+
+            <input type="text"> <label for="Qt">Qunatity(Maximum 5):</label>
+            <input type="number" max="5"/>
+
+        </fieldset>
+
+        <button style="color:black;">Submit</button>
+       </form>
+       <div style="margin-left:15px;">
+        &copy; 2011 Acm United , All right Reserved
+       </div>
+
+       <hr>
+
+       <!----------------unordered and ordered lists------------------------------>
+       <h2>Unordered List Inside  an Ordered List</h2>
+       <ol>
+        <li>Coffee</li>
+        <li>Tea
+            <ul>
+                <li>Black Tea</li>
+                <li>Gran Tea</li>
+            </ul>
+        </li>
+        <li>Milk</li>
+       </ol>
+
+       <hr>
+       <!----------------------image Map------------------------------->
+        <h2>Image Map</h2>
+
+        <map name="mymap">
+            <area shape="rec" coords="33,168, 249,73 , 400,599, 606,475"
+             href="https://www.facebook.com/" target="_blank">
+        </map>
+
+        <img src="images/pic.png" alt="facebook"  usemap="#mymap">
+
+    
+</body>
+</html>

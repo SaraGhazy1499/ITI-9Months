@@ -1,0 +1,27 @@
+.container
+{
+    width: 80%;
+    height: 700px;
+    background-color: rgb(194, 191, 191);
+    margin: auto;
+    
+}
+
+.content
+{
+    width: 50%;
+    height: 100px;
+    background-color: blue;
+
+}
+
+.def1 , .def2
+{
+    float: left;
+   
+}
+
+.cls
+{
+    clear: both;
+}
