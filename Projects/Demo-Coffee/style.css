@@ -9,6 +9,41 @@ body
 }
 
 
+.nav-content ,.logo
+{
+    float:left;
+    color: white;
+}
+
+.nav .logo
+{
+    margin-left: 15px;
+    font-size: 50px;
+    font-weight: 900;
+    padding: 20px;
+    color: #DA9F5B;
+}
+
+.nav-content
+{
+
+    margin-left:40%;
+    font-weight: 600;
+    font-size: 27px;
+    padding:40px 15px;
+    
+    
+}
+.nav-content li
+{
+    margin-left: 15px;
+}
+
+.nav-content li a:hover
+{
+    color: #DA9F5B;
+}
+
 .container
 {
     background-image: url("images/carousel-1.jpg");
@@ -26,7 +61,7 @@ body
 
 .nav
 {
-    background-color: blueviolet;
+    /*background-color: blueviolet;*/
     width: 100%;
     height: 15vh;
     position: absolute;
@@ -383,7 +418,15 @@ body
 .input-form
 {
     margin-top: 7%;
+    
 }
+
+.input-form input:hover , .input-form select:hover
+{
+    border: #DA9F5B 3px solid;
+}
+
+
 .input-form input, .input-form select
 {
     width: 70%;
