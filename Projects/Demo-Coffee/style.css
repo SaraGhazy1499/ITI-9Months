@@ -6,6 +6,7 @@
 body
 {
     background-color: #fffbf2;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -312,7 +313,7 @@ body
     margin-top: 4%;
 }
 
-.offer-content button:hover
+.offer-content button:hover , .footer-content .col form button:hover
 {
     background-color: #a7661c;
 }
@@ -456,7 +457,7 @@ body
     
 }
 
-.input-form input,.input-form select
+.input-form input::placeholder,.input-form select,.input-form input
 {
     color:#DA9F5B;
     font-size: 19px;
@@ -595,6 +596,26 @@ hr
     color: #DA9F5B;
 }
 
+.footer-content .col p
+{
+    color:white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 5%;
+}
+
+.footer-content .col form input
+{
+    padding: 2% 8%;
+}
+
+.footer-content .col form button
+{
+    
+    background-color: #DA9F5B;
+    padding: 2% 4%;
+    margin-top: 5%;
+}
 .clr
 {
     clear:both;
