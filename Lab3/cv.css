@@ -1,27 +1,160 @@
-.container
-{
-    width: 80%;
-    height: 700px;
-    background-color: rgb(194, 191, 191);
-    margin: auto;
-    
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.content
+body
 {
-    width: 50%;
-    height: 100px;
-    background-color: blue;
-
-}
-
-.def1 , .def2
-{
-    float: left;
+    background-color: rgba(249, 249, 249, 0.865);
+    color: rgb(65, 62, 62);
+    font-family: 'Courier New', Courier, monospace;
    
 }
 
-.cls
+p
 {
-    clear: both;
+    color: grey;
+}
+
+
+
+
+
+.container
+{
+     width: 70%; 
+     margin-left: 20%;
+     margin-top: 5%;
+     border: 3px solid rgb(175, 175, 175);
+}
+
+.head
+{
+    background-color: gray;
+    height: 5vh;
+}
+
+.section2 ,.section3 ,.section4,.section5,.section1
+{
+    width: 100%;
+    padding-top: 30px;
+}
+
+.section2 .content1 ,.section3 .content1,.section4 .content1,
+.section5 .content1, .section1 .content1
+{
+    font-size: 50px;
+    font-weight: 500;
+    float:left;
+    margin-left: 5%;
+    
+
+}
+
+.section2 .content2 ,.section3 .content2 , .section4 .content2 
+, .section5 .content2 ,.section1 .content2
+
+{
+    width: 60%;
+    float: right;
+    line-height: 1.6;
+}
+
+
+/***************************************************/
+
+.section3 .content1 
+{
+    float: left;
+}
+
+
+
+.section3 .content2 .col
+
+{
+   width: 30%;
+    float: left;
+}
+
+
+
+table
+{
+    width: 90%;
+}
+
+/*tr:nth-child(even)::before
+{
+
+    
+}*/
+
+.section5 .exp .col
+{
+    float:left;
+    
+}
+
+.section5 .exp .col  h5 , .section5 .exp .col .def
+{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(65, 62, 62);
+}
+
+.section5 .exp .date
+{
+    float: right;
+    margin-right: 30px;
+}
+
+
+.section5 .exp .det
+
+{
+    margin-top: 10px;
+}
+
+.section5
+{
+    padding-bottom: 5%;
+}
+
+
+button
+{
+    background-color: rgba(88, 87, 87, 0.715);
+    color: white;
+    padding: 5px 40px;
+}
+
+a
+{
+    color: red;
+}
+
+
+.section1 .content2
+{
+    width: 30%;
+    margin-left: 20px;
+    
+}
+
+.section1-def 
+{
+    font-size: 40px;
+}
+hr
+{
+    width: 64%;
+    margin: 8%;
+    margin-left: 18%;
+    color: rgb(194, 194, 194);
+}
+
+.clr
+{
+    clear:both;
 }

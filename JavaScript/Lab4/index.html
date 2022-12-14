@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+
+        <div class="gallary">
+            <h2>Gallary</h2>
+            <img src="images/menu-3.jpg" alt="img" width="400" height="400" class="img">
+            <img src="images/service-1.jpg" alt="img" width="400" height="400" class="img">
+            <img src="images/service-3.jpg" alt="img" width="400" height="400" class="img">
+        </div>
+
+        <hr>
+
+        <div class="randomcolor">
+            <h2>Random Color</h2>
+            <span> Text1 </span>
+            <span> Text2 </span>
+            <span> Text3 </span>
+            <span> Text4 </span>
+            <div></div>
+            <button onclick="changeColor()">Chang Color</button>
+        </div>
+
+
+        <hr>
+
+        <div class="togglepassword">
+            <h2>Password</h2>
+            <input type="password" id="password">
+            <button onclick="togglePassword()" id="toggle">show</button>
+        </div>
+
+
+        <hr>
+
+
+        <div class="question">
+
+            <p style="display: block;">Q1</p>
+            <p>Q2</p>
+            <p>Q3</p>
+            <p>Q4</p>
+            <p>Q5</p>
+
+            <button id="prev" onclick="prev()">previous</button>
+            <button id="next" onclick="next()">next</button>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

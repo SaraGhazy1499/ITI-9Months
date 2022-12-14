@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2
+{
+    margin-top: 2%;
+    margin-left: 45%;
+}
+
+.container
+{
+    background-color: gainsboro;
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+
+.form-group
+{
+    padding:2% 20%;
+}
+
+#login
+{
+    background-color: brown;
+    color:white;
+    padding:2% 4%;
+}
+
+nav
+{
+   
+    background-color: gainsboro;
+}
+
+ul li
+{
+    float: left;
+    list-style-type: none;
+    padding: 1% 2%;
+}
+
+ul #logout
+{
+    float: right;
+}
+
+#logout button
+{
+    background-color: transparent;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border: 0ch;
+
+}
+
+
+table
+{
+    width: 70%;
+    margin-top: 4%;
+    border: 1px solid blueviolet;
+    border-collapse: collapse;
+    margin-left: 15%;
+    
+}
+
+table ,th,td
+{
+    text-align: center;
+    border: 1px solid blueviolet;
+    padding: 2%;
+}
+
+
+th
+{
+    background-color: blueviolet;
+    color: white;
+}
+
+
+#dropdown
+{
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+#dropdown ul
+{
+    margin-top: 1%;
+    width: 100%;
+    background-color: brown;
+    color: white;
+    padding: 1% 2%;
+    
+}
+
+#dropdown ul .show
+{
+    float: right;
+}
+
+#dropdown .card
+{
+    width: 100%;
+    background-color: gainsboro;
+    padding: 1% 2%;
+    display: none;
+}
+
+#buttonsearch
+{
+
+    background-color: brown;
+    color:white;
+    padding: 1% 2%;
+}
+input[type="text"],input[type="password"]
+{
+    height:4vh;
+}
+
+.clr
+{
+    clear:both;
+}
+
